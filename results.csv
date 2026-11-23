@@ -1,0 +1,5 @@
+Model,Final training loss,Best validation loss,Test accuracy
+Small,1.767,1.800 at epoch 300,0.751
+Big (after 300 epochs),0.001,0.248 at epoch 84,0.934
+"Big (best checkpoint, for comparison)",0.001,0.248 at epoch 84,0.937
+Big + dropout + decay (best checkpoint),0.006,0.234 at epoch 157,0.937
